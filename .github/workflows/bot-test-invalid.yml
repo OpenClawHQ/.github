@@ -1,0 +1,10 @@
+# BOT TEST ONLY — do not merge. Intentionally invalid YAML to trigger simple-checks.
+name: Bot test invalid
+on:
+  workflow_dispatch:
+jobs:
+  fake:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "unclosed
+      # Intentionally invalid: unclosed double-quote above breaks YAML parsing
