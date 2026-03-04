@@ -1,5 +1,4 @@
-# 一键跑：Security / Simple checks / Typo / Build
-# 在任意 repo 的 .github/workflows/ 里放一份即可，或通过 reusable 调用本 workflow
+# Run Security, Simple checks, Typo, Build. Copy into any repo's .github/workflows/ to use.
 name: Simple tests
 
 on:

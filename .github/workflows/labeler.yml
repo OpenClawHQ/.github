@@ -1,0 +1,74 @@
+# Auto-label PRs: path rules, size (XS/S/M/L/XL), and bot/dependencies for Dependabot
+name: Labeler
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  label-by-path:
+    name: Label by file path
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/labeler@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/labeler.yml
+          sync-labels: true
+
+  label-size:
+    name: Label by size
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+      issues: write
+    steps:
+      - name: Add size label (XS/S/M/L/XL)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+            const total = pr.data.additions + pr.data.deletions;
+            let sizeLabel;
+            if (total <= 10) sizeLabel = 'size: XS';
+            else if (total <= 30) sizeLabel = 'size: S';
+            else if (total <= 100) sizeLabel = 'size: M';
+            else if (total <= 500) sizeLabel = 'size: L';
+            else sizeLabel = 'size: XL';
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: [sizeLabel]
+              });
+            } catch (e) {
+              core.warning('Could not add size label (create size: XS, S, M, L, XL in Settings → Labels): ' + e.message);
+            }
+
+  label-bot:
+    name: Label bot PRs
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]' || github.actor == 'github-actions[bot]'
+    permissions:
+      issues: write
+    steps:
+      - name: Add bot / dependencies labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = ['bot'];
+            if (context.actor === 'dependabot[bot]') labels.push('dependencies');
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels
+            });

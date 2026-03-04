@@ -1,4 +1,4 @@
-# 可选：各 repo 可放同名文件，忽略项目专有词
+# Optional: use in any repo to ignore project-specific terms
 [default]
 extend-ignore-re = [
   "OpenClaw",

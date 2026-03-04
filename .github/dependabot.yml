@@ -1,5 +1,5 @@
-# Dependabot: 依赖升级 PR，不占 CI 时间
-# 仅对本 repo 生效；其他 repo 可复制到各自 .github/dependabot.yml
+# Dependabot: dependency upgrade PRs; does not run in CI
+# Applies to this repo only; copy to .github/dependabot.yml in other repos to use
 version: 2
 updates:
   - package-ecosystem: "github-actions"

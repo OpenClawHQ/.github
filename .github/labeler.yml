@@ -1,0 +1,38 @@
+# Auto-label PRs by changed file paths. Create these labels in Settings → Labels; see docs/LABELS.md.
+
+# Type
+documentation:
+  - '**/*.md'
+  - '**/docs/**'
+  - '**/guides/**'
+  - '**/reference/**'
+  - 'profile/**'
+chore:
+  - '.github/**'
+  - '**/.gitignore'
+  - '**/vercel.json'
+  - '**/config.yml'
+dependencies:
+  - '**/package.json'
+  - '**/package-lock.json'
+  - '**/requirements*.txt'
+  - '**/pyproject.toml'
+
+# Area
+'area: meta':
+  - '.github/**'
+  - 'workflow-templates/**'
+'area: skill':
+  - '**/SKILL.md'
+  - '**/skills/**'
+  - '**/examples/**/SKILL.md'
+'area: action':
+  - 'action.yml'
+  - '**/action.yml'
+'area: docs':
+  - '**/guides/**'
+  - '**/reference/**'
+  - '**/README.md'
+'area: infra':
+  - '.github/workflows/**'
+  - '.github/dependabot.yml'
