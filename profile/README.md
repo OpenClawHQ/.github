@@ -10,9 +10,7 @@ OpenClawHQ is an open community building skills, extensions, and developer tools
 
 - **Skills** — SKILL.md recipes that teach OpenClaw new capabilities (language-agnostic, publish to [ClawHub](https://clawhub.com))
 - **Extensions** — TypeScript plugins that add channels, providers, and deep integrations via the Plugin SDK
-- **Workflows** — Lobster-compatible pipelines that chain skills into composable, resumable automations
-- **Workspace Templates** — Ready-made SOUL.md, AGENTS.md, and TOOLS.md configurations for common agent personas
-- **Developer Tools** — Linters, validators, templates, and CI automations for skill and extension authors
+- **Developer Tools** — Linters, validators, templates, and workflow automations for skill authors
 - **Your project** — no permission needed. Every claw extends the reach.
 
 ### How we build
@@ -27,10 +25,8 @@ OpenClawHQ is an open community building skills, extensions, and developer tools
 
 | Resource | Description |
 |----------|-------------|
-| [OpenClaw](https://github.com/openclaw/openclaw) | Main runtime — hands for AI that move first |
 | [`plugin-template`](https://github.com/OpenClawHQ/plugin-template) | Skill starter template — fork this and write your SKILL.md |
 | [`cookbook`](https://github.com/OpenClawHQ/cookbook) | Real-world skill recipes: Notion, Docker, Jira, PostgreSQL, git worktrees |
-| [`linear-skill`](https://github.com/OpenClawHQ/linear-skill) | Reference skill — Linear issues, projects, cycles via GraphQL API |
 | [`skill-lint`](https://github.com/OpenClawHQ/skill-lint) | CLI — validate your SKILL.md before publishing to ClawHub |
 | [`skill-lint-action`](https://github.com/OpenClawHQ/skill-lint-action) | GitHub Action — inline PR annotations for SKILL.md, zero config |
 | [`awesome-openclaw`](https://github.com/OpenClawHQ/awesome-openclaw) | Curated list of skills, extensions, tools, and resources |
