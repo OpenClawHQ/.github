@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/OpenClawHQ/brand-kit/main/logos/wordmark-dark.svg" alt="OpenClawHQ" height="36">
 </p>
 
-<p align="center"><strong>OpenClawHQ — We build hands for AI that moves first.</strong></p>
+<p align="center"><strong> We build hands for AI that moves first.</strong></p>
 
 <p align="center">
   <a href="https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
