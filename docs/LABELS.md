@@ -52,7 +52,18 @@ Repos can create the following labels under **Settings → Labels** for categori
 
 ---
 
-## 5. Size — PR change size (auto-applied)
+## 5. Contribution — For issues (see CONTRIBUTING.md)
+
+| Label | Color | Description |
+|-------|--------|--------------|
+| `good first issue` | `#7057ff` | Good for newcomers; small scope, clear steps |
+| `help wanted` | `#008672` | Extra help welcome; may need more context |
+
+Apply these when opening or triaging issues so contributors can find them via CONTRIBUTING.md.
+
+---
+
+## 6. Size — PR change size (auto-applied)
 
 | Label | Color | Description (total lines: additions + deletions) |
 |-------|--------|---------------------------------------------------|
@@ -66,7 +77,7 @@ The Labeler workflow computes the PR diff and adds exactly one of these labels. 
 
 ---
 
-## 6. Auto-labeling (Labeler)
+## 7. Auto-labeling (Labeler)
 
 1. **By path**: PRs get type/area labels from changed file paths; rules live in **.github/labeler.yml**.
 2. **Bot PRs**: PRs opened by Dependabot or github-actions[bot] get `bot` (and `dependencies` for dependency updates).
@@ -75,7 +86,7 @@ Copy **.github/labeler.yml** and **.github/workflows/labeler.yml** into a repo t
 
 ---
 
-## 7. Creating these labels in a repo
+## 8. Creating these labels in a repo
 
 - **Option A**: In each repo, go to **Settings → Labels** and create them from the tables above.
 - **Option B**: Use the GitHub API or an action such as [github-label-sync](https://github.com/marketplace/actions/github-label-sync) to create/sync labels from a YAML file (requires a token).
