@@ -73,3 +73,10 @@ Every contribution matters. We maintain contributor lists and credit authors in 
 ---
 
 Questions? Open an issue or start a discussion. We're glad you're here.
+
+---
+
+<!-- TEST: This block is for testing the labeler/size/typo CI bot. Do not merge. -->
+## [TEST] Bot test block (ignore)
+
+This paragrah has intentional errrors: teh word "occurred" is misspelled as "occured", and "separate" as "seperate". The rest of the sentence is correct: we run Security Analysis, Simple checks, Typo, and Build workflows. Size labels (XS/S/M/L/XL) are applied automatically. You can safely close this PR without merging.

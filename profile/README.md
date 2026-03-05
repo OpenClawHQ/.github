@@ -1,6 +1,17 @@
-# OpenClawHQ
+<p align="center">
+  <img src="https://raw.githubusercontent.com/OpenClawHQ/brand-kit/main/logos/wordmark-dark.svg" alt="OpenClawHQ" height="36">
+</p>
 
-**We build hands for AI that moves first.**
+<p align="center"><strong>We build hands for AI that moves first.</strong></p>
+
+<p align="center">
+  <a href="https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/OpenClawHQ/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Code of Conduct"></a>
+  <a href="https://github.com/OpenClawHQ/skill-lint"><img src="https://img.shields.io/badge/validated%20by-skill--lint-E03E3E" alt="skill-lint"></a>
+  <a href="https://github.com/OpenClawHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
+</p>
+
+---
 
 OpenClawHQ is an open community building skills, extensions, and developer tools for [OpenClaw](https://github.com/openclaw/openclaw) — the personal AI assistant you run on your own devices. We exist because one team can't cover every use case. Distributed, skill-native, community-driven is a better architecture.
 
