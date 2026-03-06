@@ -14,7 +14,7 @@
 
 ---
 
-effectorHQ(prev. OpanClawHQ) is an open community building effectors — skills, extensions, workflows, and developer tools — for Harness of Proactive AI . 
+effectorHQ (prev. OpanClawHQ) is an open community building effectors — skills, extensions, workflows, and developer tools — for Harness of Proactive AI . 
 </p>
 
 Currently powering the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem.
