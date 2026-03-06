@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/OpenClawHQ/brand-kit/main/logos/wordmark-dark.svg" alt="OpenClawHQ" height="36">
+  <img src="https://raw.githubusercontent.com/OpenClawHQ/brand-kit/main/logos/wordmark-dark.svg?v=2" alt="OpenClawHQ" height="36">
 </p>
 
 <p align="center"><strong> We build hands for AI that moves first.</strong></p>
