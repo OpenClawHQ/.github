@@ -11,7 +11,7 @@
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
 </p>
 
-effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project is an independent product — solving a real problem, backed by real research, designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
+effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
 Currently powering the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem.
 We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
