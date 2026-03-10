@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/effectorHQ/brand-kit/main/logos/wordmark-dark.svg?v=2" alt="effectorHQ" height="72">
 </p>
 
-<p align="center"><strong>We build hands for AI, demo first.</strong></p>
+<p align="center"><strong>We build hands for AI that moves first.</strong></p>
 
 <p align="center">
   <a href="https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
