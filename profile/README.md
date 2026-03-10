@@ -11,7 +11,10 @@
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
 </p>
 
-effectorHQ is an open studio building the next generation of AI agent capabilities. Each project is an independent product — solving a real problem, backed by real research, designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
+effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of AI agent capabilities. Each project is an independent product — solving a real problem, backed by real research, designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
+
+Currently powering the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem.
+We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), Claude Agent SDK, and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
 
