@@ -13,7 +13,7 @@
 
 effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
-Currently powering the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem.
+Starting with [OpenClaw](https://github.com/openclaw/openclaw). Designed for a larger capability layer.
 We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
