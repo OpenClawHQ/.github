@@ -32,7 +32,9 @@ Designed for a larger capability layer, we exist because one team can't cover ev
 
 ---
 
-### Spec & Types — the core
+### The Effector Type System
+
+The core thesis: AI agent capabilities need types. Today you chain two skills and pray they work. Tomorrow you type-check the composition before a single token is spent. This is the paradigm we're building.
 
 | Project | What it is | Status |
 |---------|-----------|--------|
