@@ -41,7 +41,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills | v0.2.0 |
 | [`clawhub-analysis`](https://github.com/effectorHQ/clawhub-analysis) | **Empirical data** — 13,729 skills analyzed, type distributions, failure rates | Data + notebook |
 
-### Quality
+### Quality & Tooling
 `what makes capabilities reliable`
 
 | Project | What it does | Status |
