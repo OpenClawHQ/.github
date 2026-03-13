@@ -19,15 +19,15 @@ We don't build the brain (that's the LLM). We don't build the body (that's the r
 
 ```mermaid
 graph LR
-  classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A;
-  classDef body fill:#2D2D2D,color:#F5F0EB,stroke:#1A1A1A;
-  classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E;
+  classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A,font-size:11px;
+  classDef body fill:#2D2D2D,color:#F5F0EB,stroke:#1A1A1A,font-size:11px;
+  classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E,font-size:11px;
 
   Brain["Brain / LLMs"]:::brain --> Body["Body / Runtimes"]:::body
   Body --> Hands["Hands / Effectors"]:::hands
 
-  Body --> BodyCaps(("OpenClaw, Claude SDK, etc.")):::body
-  Hands --> HandsCaps(("typed, composable, verifiable capability units")):::hands
+  Body --> BodyCaps([OpenClaw, Claude SDK, etc.]):::body
+  Hands --> HandsCaps([typed, composable, verifiable capability units]):::hands
 ```
 
 _Brain = models, Body = runtimes, Hands = typed effectors sitting on top._
