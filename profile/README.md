@@ -13,7 +13,7 @@
 
 effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
-Starting with [OpenClaw](https://github.com/openclaw/openclaw). Our [analysis of 13,729 ClawHub skills](https://github.com/effectorHQ/clawhub-analysis) found a **67% agent failure rate** — driven by untyped interfaces, missing prerequisites, and permission mismatches. We are designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
+Starting with [OpenClaw](https://github.com/openclaw/openclaw). We are designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
 
@@ -39,6 +39,8 @@ Designed for a larger capability layer, we exist because one team can't cover ev
 ### The Effector Type System
 
 The core thesis: AI agent capabilities need types. Today you chain two skills and pray they work. Tomorrow you type-check the composition before a single token is spent. This is the paradigm we're building.
+
+Our [analysis of 13,729 ClawHub skills](https://github.com/effectorHQ/clawhub-analysis) found a **67% agent failure rate** — driven by untyped interfaces, missing prerequisites, and permission mismatches.
 
 | Project | What it is | Status |
 |---------|-----------|--------|
