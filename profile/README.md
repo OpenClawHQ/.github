@@ -10,17 +10,23 @@
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
 </p>
 
-effectorHQ builds the capability layer for AI agents. We don't build the brain (that's the LLM). We don't build the body (that's the runtime). We build the hands — and we make sure every hand is typed, composable, and verifiable.
+effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
-Starting with [OpenClaw](https://github.com/openclaw/openclaw). Our [analysis of 13,729 ClawHub skills](https://github.com/effectorHQ/clawhub-analysis) found a **67% agent failure rate** — driven by untyped interfaces, missing prerequisites, and permission mismatches. We're designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
+Starting with [OpenClaw](https://github.com/openclaw/openclaw). Our [analysis of 13,729 ClawHub skills](https://github.com/effectorHQ/clawhub-analysis) found a **67% agent failure rate** — driven by untyped interfaces, missing prerequisites, and permission mismatches. We are designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
 
 ```mermaid
 graph LR
-  Brain[Brain<br/>LLMs] --> Body[Body<br/>Runtimes (OpenClaw, Claude, etc.)]
-  Body --> Hands[Hands<br/>Effectors (typed, composable, verifiable capability units)]
+  classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A;
+  classDef body fill:#2D2D2D,color:#F5F0EB,stroke:#1A1A1A;
+  classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E;
+
+  Brain[Brain<br/>LLMs]:::brain --> Body[Body<br/>Runtimes (OpenClaw, Claude, etc.)]:::body
+  Body --> Hands[Hands<br/>Effectors (typed, composable, verifiable capability units)]:::hands
 ```
+
+_Brain = models, Body = runtimes, Hands = typed effectors sitting on top._
 
 Currently powering the [OpenClaw](https://github.com/openclaw/openclaw) ecosystem. That's where we started — but the Effector layer is designed to sit above any runtime that can speak the types.
 
