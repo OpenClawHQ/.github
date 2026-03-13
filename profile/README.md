@@ -24,7 +24,7 @@ graph LR
   classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E,font-size:11px;
 
   Brain["Brain / LLMs"]:::brain --> Body["Body / Runtimes"]:::body
-  Body --> Hands["Hands / Effectors"]:::hands
+  Brain --> Hands["Hands / Effectors"]:::hands
 
   Body --> BodyCaps([OpenClaw, Claude SDK, etc.]):::body
   Hands --> HandsCaps([typed, composable, verifiable capability units]):::hands
