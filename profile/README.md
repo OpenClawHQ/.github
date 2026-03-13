@@ -81,7 +81,7 @@ This is the paradigm we're building: **Effector** = the smallest capability unit
 | [`lobster-recipes`](https://github.com/effectorHQ/lobster-recipes) | Workflow pipelines: deploy-and-notify, daily-standup, PR-review-triage |
 | [`docs`](https://github.com/effectorHQ/docs) | Community guides: architecture, skill development, extension development |
 
-#### Prev.
+### Prev.
 
 | Project | What it does |
 |---------|-------------|
