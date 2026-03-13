@@ -19,16 +19,13 @@ We don't build the brain (that's the LLM). We don't build the body (that's the r
 
 ```mermaid
 graph LR
-  classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A,font-size:11px;
-  classDef body fill:#2D2D2D,color:#F5F0EB,stroke:#1A1A1A,font-size:11px;
-  classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E,font-size:11px;
+  classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A;
+  classDef body fill:#2D2D2D,color:#F5F0EB,stroke:#1A1A1A;
+  classDef hands fill:#E03E3E,color:#F5F0EB,stroke:#E03E3E;
 
   Brain["Brain / LLMs"]:::brain --> Body["Body / Runtimes"]:::body
   Body --> Hands["Hands / Effectors"]:::hands
-  Hands --> EffNode["Effector = the smallest capability unit an agent can discover, inspect, run, compose, and carry across runtimes."]:::hands
 ```
-
-**Effector** = the smallest capability unit an agent can discover, inspect, run, compose, and carry across runtimes.
 
 ---
 
