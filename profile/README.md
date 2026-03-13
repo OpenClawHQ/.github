@@ -32,19 +32,6 @@ Designed for a larger capability layer, we exist because one team can't cover ev
 
 ---
 
-### What gets built here
-
-| Effector Type | What it is |
-|---------------|-----------|
-| **Skill Effectors** | Markdown-defined capabilities (SKILL.md) with typed interfaces |
-| **Extension Effectors** | TypeScript plugins that hook into runtime SDKs |
-| **Workflow Effectors** | Multi-step pipelines with typed composition |
-| **Workspace Effectors** | Agent persona bundles (SOUL.md, AGENTS.md, TOOLS.md) |
-| **Bridge Effectors** | Cross-runtime adapters (OpenClaw ↔ MCP ↔ others) |
-| **Quality Effectors** | Lint, eval, audit, and supply-chain tools |
-
----
-
 ### Spec & Types — the core
 
 | Project | What it is | Status |
@@ -97,6 +84,17 @@ Designed for a larger capability layer, we exist because one team can't cover ev
 | [Contributing Guide](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md) | How to contribute to any project |
 
 ---
+
+### What gets built here
+
+| Effector Type | What it is |
+|---------------|-----------|
+| **Skill Effectors** | Markdown-defined capabilities (SKILL.md) with typed interfaces |
+| **Extension Effectors** | TypeScript plugins that hook into runtime SDKs |
+| **Workflow Effectors** | Multi-step pipelines with typed composition |
+| **Workspace Effectors** | Agent persona bundles (SOUL.md, AGENTS.md, TOOLS.md) |
+| **Bridge Effectors** | Cross-runtime adapters (OpenClaw ↔ MCP ↔ others) |
+| **Quality Effectors** | Lint, eval, audit, and supply-chain tools |
 
 ### How we build
 
