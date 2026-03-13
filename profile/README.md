@@ -85,8 +85,8 @@ This is the paradigm we're building: **Effector** = the smallest capability unit
 
 | Project | What it does |
 |---------|-------------|
-| [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + browser launcher for OpenClaw Web UIs — configure once, then double‑click to connect every day. |
-| [`free-search-proxy`](https://github.com/OpenClawHQ/free-search-proxy) | DuckDuckGo‑based search proxy API for OpenClaw agents — simple HTTP endpoints for text, answers, images, and videos. |
+| [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + Web login |
+| [`free-search-proxy`](https://github.com/OpenClawHQ/free-search-proxy) | DuckDuckGo‑based search proxy API for OpenClaw agents |
 
 ### Governance
 
