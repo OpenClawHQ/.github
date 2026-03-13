@@ -62,7 +62,8 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`plugin-template`](https://github.com/effectorHQ/plugin-template) | Skill starter template — fork and write your SKILL.md | Working |
 | [`cookbook`](https://github.com/effectorHQ/cookbook) | Real-world skill recipes: Docker, Jira, PostgreSQL, git worktrees | Examples |
 
-### Compose & Bridge — `connecting capabilities`
+### Compose & Bridge
+<sub>connecting capabilities</sub>
 
 | Project | What it does | Status |
 |---------|-------------|--------|
