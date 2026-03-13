@@ -30,10 +30,6 @@ graph LR
   Hands --> HandsCaps([typed, composable, verifiable capability units]):::hands
 ```
 
-_Brain = models, Body = runtimes, Hands = typed effectors sitting on top._
-
-Designed for a larger capability layer, we exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
-
 ---
 
 ### The Effector Type System
