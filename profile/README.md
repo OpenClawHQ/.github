@@ -25,9 +25,6 @@ graph LR
 
   Brain["Brain / LLMs"]:::brain --> Body["Body / Runtimes"]:::body
   Body --> Hands["Hands / Effectors"]:::hands
-
-  Body --> BodyCaps([OpenClaw, Claude SDK, etc.]):::body
-  Hands --> HandsCaps([typed, composable, verifiable capability units]):::hands
 ```
 
 ---
