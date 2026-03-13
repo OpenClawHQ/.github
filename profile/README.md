@@ -102,15 +102,17 @@ Designed for a larger capability layer, we exist because one team can't cover ev
 
 | Principle | In practice |
 |-----------|-------------|
-| **Closed loops over open ends** | A working `lint → eval → publish` beats 10 more repos. |
-| **Data-grounded** | Every type, every metric, every claim traces back to the [ClawHub corpus](https://github.com/effectorHQ/clawhub-analysis). |
+| **Demo First** | Ship working code before writing proposals. A running prototype beats a perfect spec. |
+| **Ship Loud** | Every merge, every release note, every contributor gets signal. Shipping should feel like winning. |
 | **Open by Default** | Code, roadmap, decisions, failed experiments — if it can be open, it is. |
 
 ---
 
 ### Join the build
 
-Browse a repo, open a PR, or start something new. If you have questions, open an issue or start a [Discussion](https://github.com/orgs/effectorHQ/discussions).
+This is a community project. No gatekeeping. Browse a repo, open a PR, or start something new.
+
+If you have questions, open an issue in the relevant repo or start a [Discussion](https://github.com/orgs/effectorHQ/discussions).
 
 ---
 
