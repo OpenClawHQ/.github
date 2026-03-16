@@ -5,15 +5,24 @@
 <p align="center"><strong>We build hands for AI that moves first.</strong></p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@effectorhq/core"><img src="https://img.shields.io/npm/v/@effectorhq/core?label=%40effectorhq%2Fcore&color=E03E3E" alt="npm @effectorhq/core"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Code of Conduct"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
+  <a href="https://acontext.io"><img src="https://assets.memodb.io/Acontext/badge-made-with-acontext-dark.svg" alt="Made with Acontext"></a>
 </p>
 
 effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
 Starting with [OpenClaw](https://github.com/openclaw/openclaw), designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
+
+```bash
+# Get started in 30 seconds
+npm install @effectorhq/core        # parse, validate, type-check, compile
+npx create-effector my-skill         # scaffold a new effector
+npx @effectorhq/skill-lint .        # lint before you ship
+```
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
 
@@ -38,7 +47,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it is | Status |
 |---------|-----------|--------|
-| [`effector-core`](https://github.com/effectorHQ/effector-core) | **Shared kernel** — TOML/SKILL parser, type checker, schema validator; one impl for compose, graph, skill-lint, MCP | v0.1.0 |
+| [`effector-core`](https://github.com/effectorHQ/effector-core) | **Shared kernel** — TOML/SKILL parser, type checker, schema validator, cross-runtime compiler · [`npm i @effectorhq/core`](https://npmjs.com/package/@effectorhq/core) | [![npm](https://img.shields.io/npm/v/@effectorhq/core?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/core) |
 | [`effector-spec`](https://github.com/effectorHQ/effector-spec) | **The Specification** — type language, composition algebra, discovery protocol | v0.2.1 |
 | [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills | v0.2.0 |
 | [`clawhub-analysis`](https://github.com/effectorHQ/clawhub-analysis) | **Empirical data** — 13,729 skills analyzed, type distributions, failure rates | Data + notebook |
@@ -48,7 +57,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it does | Status |
 |---------|-------------|--------|
-| [`skill-lint`](https://github.com/effectorHQ/skill-lint) | CLI — validate SKILL.md structure before publishing | v0.2.0 |
+| [`skill-lint`](https://github.com/effectorHQ/skill-lint) | CLI — validate SKILL.md structure before publishing · `npx @effectorhq/skill-lint` | v0.2.0 |
 | [`skill-eval`](https://github.com/effectorHQ/skill-eval) | **Evaluation framework** — measure whether skills actually work | v0.1.0 (static) |
 | [`effector-audit`](https://github.com/effectorHQ/effector-audit) | Security audit — Sigstore signing, permission drift detection | v0.1.0 |
 | [`skill-lint-action`](https://github.com/effectorHQ/skill-lint-action) | GitHub Action — inline PR annotations, zero config | v1.0.0 |
@@ -58,7 +67,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it does | Status |
 |---------|-------------|--------|
-| [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx create-effector` — scaffold any Effector type | v0.1.0 |
+| [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx create-effector` — scaffold any Effector type in seconds | v0.1.0 |
 | [`linear-skill`](https://github.com/effectorHQ/linear-skill) | **Reference implementation** — production-ready skill, Grade A eval, zero lint errors | v1.0.0 |
 | [`cookbook`](https://github.com/effectorHQ/cookbook) | Real-world skill recipes: Docker, Jira, PostgreSQL, git worktrees | Examples |
 
@@ -69,7 +78,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 |---------|-------------|--------|
 | [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime | v0.1.0 |
 | [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph visualization and path-finding | v0.1.0 |
-| [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf | v0.1.0 |
+| [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | v0.1.0 |
 
 ### Explore & Learn
 
