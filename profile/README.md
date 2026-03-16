@@ -17,15 +17,6 @@ effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation o
 
 Starting with [OpenClaw](https://github.com/openclaw/openclaw), designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
-```bash
-# Get started in 30 seconds
-npm install @effectorhq/core        # parse, validate, type-check, compile
-npx create-effector my-skill         # scaffold a new effector
-npx @effectorhq/skill-lint .        # lint before you ship
-```
-
-We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
-
 ```mermaid
 graph LR
   classDef brain fill:#1A1A1A,color:#F5F0EB,stroke:#1A1A1A;
@@ -35,6 +26,16 @@ graph LR
   Brain["Brain / LLMs"]:::brain --> Body["Body / Runtimes"]:::body
   Body --> Hands["Hands / Effectors"]:::hands
 ```
+
+We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
+
+```bash
+# Get started in 30 seconds
+npm install @effectorhq/core        # parse, validate, type-check, compile
+npx create-effector my-skill         # scaffold a new effector
+npx @effectorhq/skill-lint .        # lint before you ship
+```
+
 
 ---
 
