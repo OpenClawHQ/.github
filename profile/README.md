@@ -39,7 +39,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | Project | What it is | Status |
 |---------|-----------|--------|
 | [`effector-core`](https://github.com/effectorHQ/effector-core) | **Shared kernel** — TOML/SKILL parser, type checker, schema validator; one impl for compose, graph, skill-lint, MCP | v0.1.0 |
-| [`effector-spec`](https://github.com/effectorHQ/effector-spec) | **The Specification** — type language, composition algebra, discovery protocol | v0.2.0 draft |
+| [`effector-spec`](https://github.com/effectorHQ/effector-spec) | **The Specification** — type language, composition algebra, discovery protocol | v0.2.1 |
 | [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills | v0.2.0 |
 | [`clawhub-analysis`](https://github.com/effectorHQ/clawhub-analysis) | **Empirical data** — 13,729 skills analyzed, type distributions, failure rates | Data + notebook |
 
@@ -60,7 +60,6 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 |---------|-------------|--------|
 | [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx create-effector` — scaffold any Effector type | v0.1.0 |
 | [`linear-skill`](https://github.com/effectorHQ/linear-skill) | **Reference implementation** — production-ready skill, Grade A eval, zero lint errors | v1.0.0 |
-| [`plugin-template`](https://github.com/effectorHQ/plugin-template) | Skill starter template — fork and write your SKILL.md | Working |
 | [`cookbook`](https://github.com/effectorHQ/cookbook) | Real-world skill recipes: Docker, Jira, PostgreSQL, git worktrees | Examples |
 
 ### Compose & Bridge

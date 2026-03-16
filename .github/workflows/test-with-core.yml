@@ -1,0 +1,51 @@
+# Reusable: Test with @effectorhq/core dependency
+# For repos that depend on "file:../effector-core"
+# Call: uses: effectorHQ/.github/.github/workflows/test-with-core.yml@main
+name: Test (with core)
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        required: false
+        default: '22'
+        type: string
+      also-clone:
+        required: false
+        default: ''
+        type: string
+        description: 'Additional repos to clone (space-separated, e.g. "effector-types")'
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: Clone effector-core
+        uses: actions/checkout@v4
+        with:
+          repository: effectorHQ/effector-core
+          path: effector-core
+
+      - name: Clone additional repos
+        if: inputs.also-clone != ''
+        run: |
+          for r in ${{ inputs.also-clone }}; do
+            git clone --depth 1 https://github.com/effectorHQ/$r.git ../$r 2>/dev/null || true
+          done
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+
+      - name: Install & test
+        working-directory: repo
+        run: |
+          npm install
+          npm test
+          npm run lint 2>/dev/null || true
