@@ -32,7 +32,7 @@ We don't build the brain (that's the LLM). We don't build the body (that's the r
 ```bash
 # Get started in 30 seconds
 npm install @effectorhq/core        # parse, validate, type-check, compile
-npx create-effector my-skill         # scaffold a new effector
+npx @effectorhq/create-effector my-skill         # scaffold a new effector
 npx @effectorhq/skill-lint .        # lint before you ship
 ```
 
@@ -50,7 +50,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 |---------|-----------|--------|
 | [`effector-core`](https://github.com/effectorHQ/effector-core) | **Shared kernel** — TOML/SKILL parser, type checker, schema validator, cross-runtime compiler · [`npm i @effectorhq/core`](https://npmjs.com/package/@effectorhq/core) | [![npm](https://img.shields.io/npm/v/@effectorhq/core?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/core) |
 | [`effector-spec`](https://github.com/effectorHQ/effector-spec) | **The Specification** — type language, composition algebra, discovery protocol | v0.2.1 |
-| [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills | v0.2.0 |
+| [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills · [`npm i @effectorhq/types`](https://npmjs.com/package/@effectorhq/types) | [![npm](https://img.shields.io/npm/v/@effectorhq/types?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/types) |
 | [`clawhub-analysis`](https://github.com/effectorHQ/clawhub-analysis) | **Empirical data** — 13,729 skills analyzed, type distributions, failure rates | Data + notebook |
 
 ### Quality & Tooling
@@ -58,17 +58,17 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it does | Status |
 |---------|-------------|--------|
-| [`skill-lint`](https://github.com/effectorHQ/skill-lint) | CLI — validate SKILL.md structure before publishing · `npx @effectorhq/skill-lint` | v0.2.0 |
-| [`skill-eval`](https://github.com/effectorHQ/skill-eval) | **Evaluation framework** — measure whether skills actually work | v0.1.0 (static) |
-| [`effector-audit`](https://github.com/effectorHQ/effector-audit) | Security audit — Sigstore signing, permission drift detection | v0.1.0 |
-| [`skill-lint-action`](https://github.com/effectorHQ/skill-lint-action) | GitHub Action — inline PR annotations, zero config | v1.0.0 |
+| [`skill-lint`](https://github.com/effectorHQ/skill-lint) | CLI — validate SKILL.md structure before publishing · `npx @effectorhq/skill-lint` | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-lint?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-lint) |
+| [`skill-eval`](https://github.com/effectorHQ/skill-eval) | **Evaluation framework** — measure whether skills actually work (static-only) | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-eval?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-eval) |
+| [`effector-audit`](https://github.com/effectorHQ/effector-audit) | Security audit — static scanner + permission drift detection · `npx @effectorhq/audit` | [![npm](https://img.shields.io/npm/v/@effectorhq/audit?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/audit) |
+| [`skill-lint-action`](https://github.com/effectorHQ/skill-lint-action) | GitHub Action — inline PR annotations, zero config | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-lint-action?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-lint-action) |
 
 ### Build & Ship
 `get started in minutes`
 
 | Project | What it does | Status |
 |---------|-------------|--------|
-| [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx create-effector` — scaffold any Effector type in seconds | v0.1.0 |
+| [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx @effectorhq/create-effector` — scaffold any Effector type in seconds | [![npm](https://img.shields.io/npm/v/@effectorhq/create-effector?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/create-effector) |
 | [`linear-skill`](https://github.com/effectorHQ/linear-skill) | **Reference implementation** — production-ready skill, Grade A eval, zero lint errors | v1.0.0 |
 | [`cookbook`](https://github.com/effectorHQ/cookbook) | Real-world skill recipes: Docker, Jira, PostgreSQL, git worktrees | Examples |
 
@@ -77,8 +77,8 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it does | Status |
 |---------|-------------|--------|
-| [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime | v0.1.0 |
-| [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph visualization and path-finding | v0.1.0 |
+| [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime · `npm i @effectorhq/compose` | [![npm](https://img.shields.io/npm/v/@effectorhq/compose?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/compose) |
+| [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph visualization and path-finding · `npm i @effectorhq/graph` | [![npm](https://img.shields.io/npm/v/@effectorhq/graph?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/graph) |
 | [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | v0.1.0 |
 
 ### Explore & Learn
