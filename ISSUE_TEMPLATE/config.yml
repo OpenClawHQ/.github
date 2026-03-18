@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions / Discussions
+    url: https://github.com/effectorHQ/discussions
+    about: Ask questions and start discussions here.
+  - name: Security Reports
+    url: https://github.com/effectorHQ/effector-audit/security/advisories/new
+    about: Report vulnerabilities in effectorHQ or ecosystem packages.
+

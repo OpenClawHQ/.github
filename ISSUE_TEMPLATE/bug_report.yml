@@ -37,8 +37,8 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: OS, Python version, OpenClaw version, etc.
-      placeholder: "macOS 14.x, Python 3.12, OpenClaw 2.x"
+      description: OS, runtime versions (Node/Python), effectorHQ version, etc.
+      placeholder: "macOS 14.x, Node 20.x, @effectorhq/core 1.0.0"
     validations:
       required: false
   - type: textarea
