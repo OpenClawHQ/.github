@@ -6,7 +6,7 @@ Use this in **effectorHQ/.github** → **Discussions** → **New discussion** (a
 
 ## Suggested title
 
-**Welcome to effectorHQ — skills, tools, and ecosystem around OpenClaw**
+**Welcome to effectorHQ - Typed AI agent tools & effectors**
 
 ---
 
@@ -14,10 +14,10 @@ Use this in **effectorHQ/.github** → **Discussions** → **New discussion** (a
 
 We build hands for AI that moves first.
 
-**effectorHQ** is the community layer around [OpenClaw](https://github.com/openclaw/openclaw): skills (SKILL.md), developer tools (skill-lint, CI, templates), and small services like [free-search-proxy](https://github.com/effectorHQ/free-search-proxy). We’re not a fork of the main repo — we treat it as the source of truth and focus on ecosystem and DX.
+**effectorHQ** is the community layer for typed AI agent effectors: skills (SKILL.md), developer tools (skill-lint, CI, templates), and small services like [free-search-proxy](https://github.com/effectorHQ/free-search-proxy). We’re not a runtime — we build the capability layer that compiles across runtimes.
 
 - **New here?** Start with the [org README](https://github.com/effectorHQ/.github) and [CONTRIBUTING](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md). Look for issues labeled `good first issue` or `help wanted`.
-- **Want to build a skill?** Check [plugin-template](https://github.com/effectorHQ/plugin-template) and [linear-skill](https://github.com/effectorHQ/linear-skill) as a reference.
+- **Want to build an effector/skill?** Start with [create-effector](https://github.com/effectorHQ/create-effector) and use [linear-skill](https://github.com/effectorHQ/linear-skill) as a reference. Validate with `npx @effectorhq/skill-lint`.
 - **Questions or ideas?** Post in this Discussion or open an issue in the repo that fits.
 
 Glad to have you.
