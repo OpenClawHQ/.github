@@ -101,7 +101,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | Project | What it does |
 |---------|-------------|
 | [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + Web login |
-| [`free-search-proxy`](https://github.com/OpenClawHQ/free-search-proxy) | DuckDuckGo‑based search proxy API for OpenClaw agents |
+| [`duckduckgo-api`](https://github.com/effectorHQ/duckduckgo-api) | DuckDuckGo‑based search proxy API for OpenClaw agents |
 
 ### Governance
 
