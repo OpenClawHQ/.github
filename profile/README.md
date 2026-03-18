@@ -36,11 +36,17 @@ npx @effectorhq/create-effector my-skill         # scaffold a new effector
 npx @effectorhq/skill-lint .        # lint before you ship
 ```
 
+Quick read: https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md
+
+End-to-end compile examples:
+- [MCP](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-mcp)
+- [OpenAI Agents](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-openai-agents)
+- [LangChain](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-langchain)
+- [JSON IR](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-json)
 
 ---
 
 ### The Effector Type System
-
 > Our [analysis of 13,729 ClawHub skills](https://github.com/effectorHQ/clawhub-analysis) found a **67% agent failure rate**: driven by untyped interfaces, missing prerequisites, and permission mismatches.  
 > This is the paradigm we're building: Effector = **the smallest capability unit** an agent can discover, inspect, run, compose, and carry across runtimes.
 
