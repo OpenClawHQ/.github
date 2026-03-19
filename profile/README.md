@@ -36,7 +36,7 @@ npx @effectorhq/create-effector my-skill         # scaffold a new effector
 npx @effectorhq/skill-lint .        # lint before you ship
 ```
 
-Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8)
+Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [A small update on our name and direction](https://github.com/orgs/effectorHQ/discussions/1) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8) 
 
 End-to-end compile examples:
 - [MCP](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-mcp)
