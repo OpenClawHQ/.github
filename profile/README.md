@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/effectorHQ/brand-kit/main/logos/wordmark-dark.svg?v=2" alt="effectorHQ" height="72">
 </p>
 
-<sub>Part of the <a href="https://github.com/effectorHQ">effectorHQ</a> studio. We build hands for AI that moves first.</sub>
+<p align="center"><strong>We build hands for AI that moves first.</strong></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@effectorhq/core"><img src="https://img.shields.io/npm/v/@effectorhq/core?label=%40effectorhq%2Fcore&color=E03E3E" alt="npm @effectorhq/core"></a>
@@ -36,7 +36,7 @@ npx @effectorhq/create-effector my-skill         # scaffold a new effector
 npx @effectorhq/skill-lint .        # lint before you ship
 ```
 
-Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [A small update on our name and direction](https://github.com/orgs/effectorHQ/discussions/1) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8) 
+Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8)
 
 End-to-end compile examples:
 - [MCP](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-mcp)
@@ -85,7 +85,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 |---------|-------------|--------|
 | [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime · `npm i @effectorhq/compose` | [![npm](https://img.shields.io/npm/v/@effectorhq/compose?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/compose) |
 | [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph visualization and path-finding · `npm i @effectorhq/graph` | [![npm](https://img.shields.io/npm/v/@effectorhq/graph?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/graph) |
-| [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | v0.1.0 |
+| [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-mcp?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-mcp) |
 
 ### Explore & Learn
 
