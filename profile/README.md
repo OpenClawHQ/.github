@@ -31,9 +31,11 @@ We don't build the brain (that's the LLM). We don't build the body (that's the r
 
 ```bash
 # Get started in 30 seconds
-npm install @effectorhq/core        # parse, validate, type-check, compile
-npx @effectorhq/create-effector my-skill         # scaffold a new effector
-npx @effectorhq/skill-lint .        # lint before you ship
+npm install @effectorhq/core                    # parse, validate, type-check, compile
+npx @effectorhq/create-effector my-skill        # scaffold a new effector
+npx @effectorhq/skill-lint .                    # lint before you ship
+npx @effectorhq/studio                          # visual tool builder (browser UI)
+npx @effectorhq/graph spectrum                  # visualize the 36-type capability map
 ```
 
 Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8)
@@ -75,6 +77,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | Project | What it does | Status |
 |---------|-------------|--------|
 | [`create-effector`](https://github.com/effectorHQ/create-effector) | `npx @effectorhq/create-effector` — scaffold any Effector type in seconds | [![npm](https://img.shields.io/npm/v/@effectorhq/create-effector?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/create-effector) |
+| [`studio`](https://github.com/effectorHQ/studio) | **Visual tool builder** — `npx @effectorhq/studio` opens a browser UI with live TOML/SKILL preview, 4-target compilation, and one-click scaffold | [![npm](https://img.shields.io/npm/v/@effectorhq/studio?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/studio) |
 | [`linear-skill`](https://github.com/effectorHQ/linear-skill) | **Reference implementation** — production-ready skill, Grade A eval, zero lint errors | v1.0.0 |
 | [`cookbook`](https://github.com/effectorHQ/cookbook) | Real-world skill recipes: Docker, Jira, PostgreSQL, git worktrees | Examples |
 
@@ -84,7 +87,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | Project | What it does | Status |
 |---------|-------------|--------|
 | [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime · `npm i @effectorhq/compose` | [![npm](https://img.shields.io/npm/v/@effectorhq/compose?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/compose) |
-| [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph visualization and path-finding · `npm i @effectorhq/graph` | [![npm](https://img.shields.io/npm/v/@effectorhq/graph?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/graph) |
+| [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph + **Spectrum** polar visualization · `npx @effectorhq/graph spectrum` | [![npm](https://img.shields.io/npm/v/@effectorhq/graph?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/graph) |
 | [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-mcp?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-mcp) |
 
 ### Explore & Learn
@@ -95,13 +98,6 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`workspace-templates`](https://github.com/effectorHQ/workspace-templates) | Agent persona bundles (DevOps, Code Reviewer, Security Auditor) |
 | [`lobster-recipes`](https://github.com/effectorHQ/lobster-recipes) | Workflow pipelines: deploy-and-notify, daily-standup, PR-review-triage |
 | [`docs`](https://github.com/effectorHQ/docs) | Community guides: architecture, skill development, extension development |
-
-### Prev.
-
-| Project | What it does |
-|---------|-------------|
-| [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + Web login |
-| [`duckduckgo-api`](https://github.com/effectorHQ/duckduckgo-api) | DuckDuckGo‑based search proxy API for OpenClaw agents |
 
 ### Governance
 
