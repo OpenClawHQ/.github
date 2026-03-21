@@ -99,6 +99,13 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`lobster-recipes`](https://github.com/effectorHQ/lobster-recipes) | Workflow pipelines: deploy-and-notify, daily-standup, PR-review-triage |
 | [`docs`](https://github.com/effectorHQ/docs) | Community guides: architecture, skill development, extension development |
 
+### Prev.
+
+| Project | What it does |
+|---------|-------------|
+| [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + Web login |
+| [`duckduckgo-api`](https://github.com/effectorHQ/duckduckgo-api) | DuckDuckGo‑based search proxy API for OpenClaw agents |
+
 ### Governance
 
 | Document | Purpose |
