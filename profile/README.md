@@ -35,7 +35,7 @@ npm install @effectorhq/core                    # parse, validate, type-check, c
 npx @effectorhq/create-effector my-skill        # scaffold a new effector
 npx @effectorhq/skill-lint .                    # lint before you ship
 npx @effectorhq/studio                          # visual tool builder (browser UI)
-npx @effectorhq/graph spectrum                  # visualize the 36-type capability map
+npx @effectorhq/graph spectrum                  # visualize the 40-type capability map
 ```
 
 Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8)
