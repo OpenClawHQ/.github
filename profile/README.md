@@ -14,7 +14,7 @@
   <a href="https://acontext.io"><img src="https://assets.memodb.io/Acontext/badge-made-with-acontext.svg" alt="Made with Acontext" height="20"></a>
 </p>
 
-effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project aims to solve a real problem, is backed by real research, and is designed to stand on its own. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
+effectorHQ (*prev. OpenClawHQ*) is an open studio building the next generation of Proactive AI agent capabilities. Each project intend to contribute back to open source and academic research. Together they form a coherent vision: **typed, composable, verifiable hands for AI.**
 
 Starting with [OpenClaw](https://github.com/openclaw/openclaw), designed for a larger capability layer. We exist because one team can't cover every use case. Distributed, effector-native, community-driven is a better architecture.
 
