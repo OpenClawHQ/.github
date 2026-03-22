@@ -7,9 +7,9 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@effectorhq/core"><img src="https://img.shields.io/npm/v/@effectorhq/core?label=%40effectorhq%2Fcore&color=E03E3E" alt="npm @effectorhq/core"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <img src="https://img.shields.io/github/last-commit/memohai/Memoh" alt="Last Commit" />
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Code of Conduct"></a>
-  <img src="https://img.shields.io/github/last-commit/memohai/Memoh" alt="Last Commit" />
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
   <a href="https://acontext.io"><img src="https://assets.memodb.io/Acontext/badge-made-with-acontext.svg" alt="Made with Acontext" height="20"></a>
 </p>
