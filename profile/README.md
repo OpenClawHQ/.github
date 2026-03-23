@@ -147,3 +147,7 @@ If you have questions, open an issue in the relevant repo or start a [Discussion
 ---
 
 <sub>Every effector extends the reach. © 2026 effectorHQ Contributors</sub>
+
+## License
+
+This project is currently licensed under the Apache 2.0 License 。

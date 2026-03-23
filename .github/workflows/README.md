@@ -42,3 +42,7 @@ Copy **simple-tests.yml** into a repo’s `.github/workflows/` to enable the sam
   - **label-bot**: adds `bot` (and `dependencies` for Dependabot) for bot-authored PRs.
 
 Create the five size labels in the repo so the size job can apply them. Copy **labeler.yml** and **workflows/labeler.yml** into a repo to reuse.
+
+## License
+
+This project is currently licensed under the Apache 2.0 License 。
