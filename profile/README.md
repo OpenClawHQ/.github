@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/@effectorhq/core"><img src="https://img.shields.io/npm/v/@effectorhq/core?label=%40effectorhq%2Fcore&color=E03E3E" alt="npm @effectorhq/core"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-  <img src="https://img.shields.io/github/last-commit/memohai/Memoh" alt="Last Commit" />
+  <img src="https://img.shields.io/github/last-commit/effectorHQ/effector-core" alt="Last Commit" />
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Code of Conduct"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
@@ -105,7 +105,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | Project | What it does |
 |---------|-------------|
 | [`OpentheClaw`](https://github.com/effectorHQ/OpentheClaw) | One‑click SSH tunnel + Web login |
-| [`duckduckgo-api`](https://github.com/effectorHQ/duckduckgo-api) | DuckDuckGo‑based search proxy API for OpenClaw agents |
+| [`free-search-proxy`](https://github.com/effectorHQ/free-search-proxy) | DuckDuckGo‑based search proxy API for OpenClaw agents |
 
 ### Governance
 
