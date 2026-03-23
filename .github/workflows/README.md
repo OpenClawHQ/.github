@@ -45,4 +45,4 @@ Create the five size labels in the repo so the size job can apply them. Copy **l
 
 ## License
 
-This project is currently licensed under the Apache 2.0 License 。
+This project is currently licensed under the [Apache License, Version 2.0](../../LICENSE.md) 。

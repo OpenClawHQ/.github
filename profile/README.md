@@ -115,6 +115,19 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`rfcs`](https://github.com/effectorHQ/rfcs) | RFC process for spec changes and new products |
 | [Contributing Guide](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md) | How to contribute to any project |
 
+### Verification
+
+| Project | What it does |
+|---------|-------------|
+| [`effector-bench`](https://github.com/effectorHQ/effector-bench) | Two-tier benchmark suite — toolchain accuracy + schema quality comparison |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/effectorHQ/.github/main/profile/figures/bench-overview.png" alt="effector-bench v2.0" width="720" />
+</p>
+
+**Tier A** — 179 adversarial cases, 89.9% accuracy. 18 known gaps documented.
+**Tier B** — Controlled variable (n=10, grounded in [BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html), [τ-bench](https://arxiv.org/abs/2406.12045), [ToolSword](https://arxiv.org/abs/2402.10753), [MCPToolBench++](https://arxiv.org/abs/2508.07575)). Δ+36 overall, 6 regressions documented. [Methodology](https://github.com/effectorHQ/effector-bench/blob/main/METHODOLOGY.md).
+
 ---
 
 ### What gets built here
