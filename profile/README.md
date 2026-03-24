@@ -62,6 +62,19 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills · [`npm i @effectorhq/types`](https://npmjs.com/package/@effectorhq/types) | [![npm](https://img.shields.io/npm/v/@effectorhq/types?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/types) |
 | [`clawhub-analysis`](https://github.com/effectorHQ/clawhub-analysis) | **Empirical data** — 13,729 skills analyzed, type distributions, failure rates | Data + notebook |
 
+### Verification
+
+| Project | What it does |
+|---------|-------------|
+| [`effector-bench`](https://github.com/effectorHQ/effector-bench) | Two-tier benchmark suite: toolchain accuracy + schema quality comparison |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/effectorHQ/.github/main/profile/figures/bench-overview.png" alt="effector-bench v2.0" width="720" />
+</p>
+
+**Tier A** — 179 adversarial cases, 89.9% accuracy. 18 known gaps documented.
+**Tier B** — Controlled variable (n=10, grounded in [BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html), [τ-bench](https://arxiv.org/abs/2406.12045), [ToolSword](https://arxiv.org/abs/2402.10753), [MCPToolBench++](https://arxiv.org/abs/2508.07575)). Δ+51 overall (+43 comparable, +64 differential), 0 regressions. [Methodology](https://github.com/effectorHQ/effector-bench/blob/main/METHODOLOGY.md).
+
 ### Quality & Tooling
 `what makes capabilities reliable`
 
@@ -115,19 +128,6 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`manifesto`](https://github.com/effectorHQ/manifesto) | Founding theses — why typed capabilities matter |
 | [`rfcs`](https://github.com/effectorHQ/rfcs) | RFC process for spec changes and new products |
 | [Contributing Guide](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md) | How to contribute to any project |
-
-### Verification
-
-| Project | What it does |
-|---------|-------------|
-| [`effector-bench`](https://github.com/effectorHQ/effector-bench) | Two-tier benchmark suite — toolchain accuracy + schema quality comparison |
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/effectorHQ/.github/main/profile/figures/bench-overview.png" alt="effector-bench v2.0" width="720" />
-</p>
-
-**Tier A** — 179 adversarial cases, 89.9% accuracy. 18 known gaps documented.
-**Tier B** — Controlled variable (n=10, grounded in [BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html), [τ-bench](https://arxiv.org/abs/2406.12045), [ToolSword](https://arxiv.org/abs/2402.10753), [MCPToolBench++](https://arxiv.org/abs/2508.07575)). Δ+51 overall (+43 comparable, +64 differential), 0 regressions. [Methodology](https://github.com/effectorHQ/effector-bench/blob/main/METHODOLOGY.md).
 
 ---
 
