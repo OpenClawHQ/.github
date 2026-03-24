@@ -90,7 +90,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 | [`effector-compose`](https://github.com/effectorHQ/effector-compose) | Build agent pipelines, type-check them, emit to any runtime · `npm i @effectorhq/compose` | [![npm](https://img.shields.io/npm/v/@effectorhq/compose?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/compose) |
 | [`effector-graph`](https://github.com/effectorHQ/effector-graph) | Capability graph + **Spectrum** polar visualization · `npx @effectorhq/graph spectrum` | [![npm](https://img.shields.io/npm/v/@effectorhq/graph?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/graph) |
 | [`openclaw-mcp`](https://github.com/effectorHQ/openclaw-mcp) | SKILL.md → MCP bridge — make skills work in Claude, Cursor, Windsurf · `npx @effectorhq/skill-mcp` | [![npm](https://img.shields.io/npm/v/@effectorhq/skill-mcp?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/skill-mcp) |
-| [`effector-serve`](https://github.com/effectorHQ/effector-serve) | **Guarded MCP runtime** — stdio MCP over a skill directory; runtime type-check on `tools/call`, permission flags (`--allow-network` / `--allow-subprocess`), plus `effector_discover` / `effector_compose` / `effector_inspect` · wraps `skill-mcp` · [`@effectorhq/serve`](https://github.com/effectorHQ/effector-serve) | Alpha |
+| [`effector-serve`](https://github.com/effectorHQ/effector-serve) | **Guarded MCP runtime** — stdio MCP over a skill directory; runtime type-check on `tools/call`, permission flags (`--allow-network` / `--allow-subprocess`), plus `effector_discover` / `effector_compose` / `effector_inspect` · wraps `skill-mcp` · @effectorhq/serve | Alpha |
 
 ### Explore & Learn
 
