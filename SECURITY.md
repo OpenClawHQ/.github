@@ -15,7 +15,7 @@ Report vulnerabilities privately via GitHub Security Advisories:
 
 👉 [Report a vulnerability](https://github.com/effectorHQ/.github/security/advisories/new)
 
-Or email: **security@effectorhq.dev** *(monitored, response within 72 hours)*
+Or email: **jydu_seven@outlook.com** *(monitored, response within 72 hours)*
 
 ### What to include
 
