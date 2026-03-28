@@ -5,9 +5,10 @@
 <p align="center"><strong>We build hands for AI that moves first.</strong></p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@effectorhq/cli"><img src="https://img.shields.io/npm/v/@effectorhq/cli?label=%40effectorhq%2Fcli&color=E03E3E" alt="npm @effectorhq/cli"></a>
   <a href="https://www.npmjs.com/package/@effectorhq/core"><img src="https://img.shields.io/npm/v/@effectorhq/core?label=%40effectorhq%2Fcore&color=E03E3E" alt="npm @effectorhq/core"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
-  <img src="https://img.shields.io/github/last-commit/effectorHQ/effector-core" alt="Last Commit" />
+  <a href="https://github.com/effectorHQ/effector"><img src="https://img.shields.io/badge/monorepo-effector-1A1A1A.svg" alt="Monorepo"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Code of Conduct"></a>
   <a href="https://github.com/effectorHQ/.github/blob/main/profile/README.zh.md"><img src="https://img.shields.io/badge/文档-中文-red.svg" alt="中文文档"></a>
@@ -30,19 +31,42 @@ graph LR
 
 We don't build the brain (that's the LLM). We don't build the body (that's the runtime — [OpenClaw](https://github.com/openclaw/openclaw), [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python), and whatever comes next). We build the hands — and we make sure every hand is safer, more composable, and more powerful than what existed before.
 
+### [`effector`](https://github.com/effectorHQ/effector) — the unified builder kit
+
+> **One repo. One CLI. One manifest. Every runtime.**
+>
+> The [`effector`](https://github.com/effectorHQ/effector) monorepo consolidates the core toolchain into a single install path. All packages below (core, types, audit, compose, serve, lint) ship together, test together, and release together.
+
 ```bash
-# Get started in 30 seconds
-npm install @effectorhq/core                    # parse, validate, type-check, compile
-npx @effectorhq/create-effector my-skill        # scaffold a new effector
-npx @effectorhq/skill-lint .                    # lint before you ship
-npx @effectorhq/studio                          # visual tool builder (browser UI)
-npx @effectorhq/graph spectrum                  # visualize the 40-type capability map
+# The golden path — 30 seconds to typed, audited, compiled
+npx @effectorhq/cli init my-skill               # scaffold a typed skill manifest
+cd my-skill
+effector check .                                 # validate + type-check + lint + audit
+effector compile . -t mcp                        # compile to MCP tool schema
+effector compile . -t openai-agents              # compile to OpenAI Agents
+effector compile . -t langchain                  # compile to LangChain (Python)
+```
+
+```
+┌───────────────┐     ┌──────────────┐     ┌──────────────┐
+│ effector.toml │────▶│    check     │────▶│   compile    │
+│   SKILL.md    │     │  types/lint/ │     │  mcp/openai/ │
+└───────────────┘     │  audit       │     │  langchain   │
+                      └──────────────┘     └──────────────┘
+```
+
+You can also use individual packages directly:
+
+```bash
+npm install @effectorhq/core                     # zero-dep kernel: parse, validate, compile
+npx @effectorhq/studio                           # visual tool builder (browser UI)
+npx @effectorhq/graph spectrum                   # visualize the 40-type capability map
 ```
 
 Quick read: [Typed AI Agent Tools](https://github.com/effectorHQ/docs/blob/main/blog/typed-ai-agent-tools.md) · [v1.0 release announcement](https://github.com/effectorHQ/.github/discussions/8)
 
 End-to-end compile examples:
-- [MCP](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-mcp)
+- [MCP](https://github.com/effectorHQ/effector/tree/main/examples/hello-skill)
 - [OpenAI Agents](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-openai-agents)
 - [LangChain](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-langchain)
 - [JSON IR](https://github.com/effectorHQ/effector-core/tree/main/examples/compile-to-json)
@@ -57,6 +81,7 @@ The core thesis: AI agent capabilities need types. Today you chain two skills an
 
 | Project | What it is | Status |
 |---------|-----------|--------|
+| [`effector`](https://github.com/effectorHQ/effector) | **Monorepo & unified CLI** — one install, one tool: `init`, `check`, `compile`, `inspect`, `serve`. Consolidates core + types + audit + compose + lint + serve · [`npx @effectorhq/cli`](https://npmjs.com/package/@effectorhq/cli) | [![npm](https://img.shields.io/npm/v/@effectorhq/cli?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/cli) |
 | [`effector-core`](https://github.com/effectorHQ/effector-core) | **Shared kernel** — TOML/SKILL parser, type checker, schema validator, cross-runtime compiler · [`npm i @effectorhq/core`](https://npmjs.com/package/@effectorhq/core) | [![npm](https://img.shields.io/npm/v/@effectorhq/core?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/core) |
 | [`effector-spec`](https://github.com/effectorHQ/effector-spec) | **The Specification** — type language, composition algebra, discovery protocol | v0.2.1 |
 | [`effector-types`](https://github.com/effectorHQ/effector-types) | **Standard capability types** — the `lib.d.ts` for agent tools, grounded in 13K+ skills · [`npm i @effectorhq/types`](https://npmjs.com/package/@effectorhq/types) | [![npm](https://img.shields.io/npm/v/@effectorhq/types?color=E03E3E&label=)](https://npmjs.com/package/@effectorhq/types) |
